@@ -1,0 +1,7 @@
+.d-tag {
+    display: inline-block;
+    padding: 2px 4px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 4px;
+}

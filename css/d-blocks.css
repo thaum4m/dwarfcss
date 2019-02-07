@@ -1,0 +1,32 @@
+.d-block {
+    /* Need full width in case display flex applied */
+    width: 100%;
+    padding: 6px 10px;
+}
+.d-frame {
+    border: 1px solid #ccc;
+}
+
+.d-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.d-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.d-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.d-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}

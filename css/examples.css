@@ -1,0 +1,46 @@
+.custom-col1 {
+	background-color: #ffcdcd;
+    border: 1px solid #eeaaaa;
+}
+.custom-col2 {
+	background-color: #cdcdff;
+	border: 1px solid #aaaaee;
+}
+.custom-col3 {
+	background-color: #cdffcd;
+	border: 1px solid #aaeeaa;
+}
+.custom-col1, .custom-col2, .custom-col3 {
+	padding: 6px 8px;
+}
+
+.code-title {
+	margin-bottom: 0.2em;
+	padding-bottom: 0;
+}
+.code-note {
+	margin-top: 0.2em;
+	font-style: italic;
+	font-size: 12px;
+}
+body pre.prettyprint {
+	margin: 0;
+	padding: 10px 14px;
+	border: 0;
+	background-color: #f6f6f6;
+	font-size: 14px;
+}
+pre.prettyprint > xmp {
+	margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+	#contents {
+		margin-right: 15px;
+	}
+}
+@media screen and (min-width: 992px) {
+	#contents {
+		margin-right: 25px;
+	}
+}

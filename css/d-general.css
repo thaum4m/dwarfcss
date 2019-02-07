@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.pull-right {
+	float: right;
+}
+
+code {
+    font-size: 14px;
+}
+
+.clearfix:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+}
